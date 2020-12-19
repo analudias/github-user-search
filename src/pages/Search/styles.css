@@ -1,0 +1,23 @@
+.profile-card {
+    position: relative;
+    top: 200px;
+    width: 80%;
+    margin: auto;
+    background-color: #E6F7FF;
+    padding: 30px 50px;
+}
+
+h1 {
+    padding: 20px;
+}
+
+.input-user {
+    
+    width: 676px;
+    height: 40px;
+    background: #FFFFFF;
+    border: 1px solid #D9D9D9;
+    box-sizing: border-box;
+    border-radius: 4px;
+    
+}

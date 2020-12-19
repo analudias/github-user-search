@@ -1,15 +1,15 @@
 import React from 'react';
 import './styles.css';
 
-/* type Props = {
+type Props = {
     text: string;
-} */
+}
 
-const ButtonIcon = () => (
+const ButtonIcon = ({ text }: Props) => (
 
     <div>
         <button className="button-icon">
-            <h5 className="text-style">Começar</h5>
+            <h5 className="text-style">{text}</h5>
         </button>
     </div>
 );
