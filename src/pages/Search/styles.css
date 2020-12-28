@@ -1,10 +1,9 @@
 .profile-card {
-    position: relative;
-    top: 200px;
+    margin: 50px;
     width: 80%;
-    margin: auto;
     background-color: #E6F7FF;
     padding: 30px 50px;
+    margin-bottom: 50px;
 }
 
 h1 {
@@ -21,4 +20,14 @@ h1 {
     border-radius: 4px;
     margin-bottom: 24px;
     
+}
+
+.user-info {
+    display: flex;
+    top: 200px;
+    height: 387px;
+    width: 80%;
+    background-color: #F5F5F5;
+    padding: 30px 50px;
+    margin-left: 50px;
 }

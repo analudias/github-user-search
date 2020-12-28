@@ -1,11 +1,15 @@
+body{
+    margin: 0;
+}
+
 .main-nav {
-    position: absolute;
     width: 1440px;
     height: 62px;
     left: 0px;
     top: 0px;
-
+    margin-bottom: 50px;
     background: #1890FF;
+    padding: 0px;
 }
 
 .main-title {

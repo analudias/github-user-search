@@ -1,7 +1,9 @@
 import ButtonIcon from 'core/components/ButtonIcon';
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './styles.css';
+import ImageLoader from './components/Loaders/ImageLoader';
+import InfoLoader from './components/Loaders/InfoLoader';
+import './styles.css'; 
 
 const Search = () => (
     <div className="search-content">
@@ -11,6 +13,10 @@ const Search = () => (
             <Link to="/result">
                 <ButtonIcon text="Encontrar" />
             </Link>
+        </div>
+        <div className="user-info">
+            <ImageLoader />
+            <InfoLoader />
         </div>
         
     </div>
